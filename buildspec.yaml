@@ -1,0 +1,16 @@
+version: 0.1
+
+
+phases:
+  build:
+    commands:
+      - echo nothing to do yet
+
+artifacts:
+  files:
+    - README.md
+    - buildspec.yaml
+    - favicon.ico
+    - images/*
+    - index.html
+    - styles/*
