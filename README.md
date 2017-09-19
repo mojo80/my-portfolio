@@ -6,3 +6,7 @@ Learning how to code!  Nothing interesting to see here :)
 
 Git and GitHub
 SSH
+HTML
+CSS
+Font Awesome
+Google Fonts
