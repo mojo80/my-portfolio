@@ -8,7 +8,6 @@ phases:
 
 artifacts:
   files:
-    - README.md
     - buildspec.yml
     - favicon.ico
     - images/*
