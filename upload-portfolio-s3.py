@@ -7,6 +7,7 @@ import mimetypes
 def lambda_handler(event, context):
     s3 = boto3.resource('s3')
     sns = boto3.resource('sns')
+    codepipeline = boto3.client('codepipeline')
     topic = sns.Topic('arn:aws:sns:ap-southeast-2:345005618722:portfolioDeployTopic')
 
     location = {
@@ -16,7 +17,7 @@ def lambda_handler(event, context):
     }
 
     try:
-        job = event.get("CodePipline.job")
+        job = event.get("CodePipeline.job")
 
         if job:
             for artifact in job["data"]["inputArtifacts"]:
@@ -43,8 +44,8 @@ def lambda_handler(event, context):
         topic.publish(Subject="Porfolio Deployed", Message="Portfolio Deployed Successfully")
 
         if job:
-            codepipeline = boto3.client('codepipeline')
             codepipeline.put_job_success_result(jobId=job["id"])
+            print "Success!!" + job["id"]
 
     except:
         topic.publish(Subject="Porfolio Deployed Failed", Message="The Build was not successful")
