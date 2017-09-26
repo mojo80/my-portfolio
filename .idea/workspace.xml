@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdd6d173-dfa0-4705-b722-02009a94935f" name="Default" comment="update title">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio-build-sns.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload-portfolio-s3.py" afterPath="$PROJECT_DIR$/upload-portfolio-s3.py" />
+    <list default="true" id="bdd6d173-dfa0-4705-b722-02009a94935f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -22,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -79,11 +77,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1267" />
-    <option name="y" value="-1053" />
-    <option name="width" value="1863" />
-    <option name="height" value="1042" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-951" />
+    <option name="y" value="-928" />
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -184,7 +182,7 @@
       <updated>1505781255884</updated>
       <workItem from="1505781257557" duration="4306000" />
       <workItem from="1506304718047" duration="451000" />
-      <workItem from="1506377705145" duration="2192000" />
+      <workItem from="1506377705145" duration="2603000" />
     </task>
     <task id="LOCAL-00001" summary="update to buildspec">
       <created>1506254412542</created>
@@ -221,14 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1506395383392</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update title">
+      <created>1506396071045</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506396071045</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6949000" />
+    <option name="totallyTimeSpent" value="7360000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1289" y="-1057" width="1280" height="728" extended-state="0" />
+    <frame x="-951" y="-928" width="1280" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25575852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -675,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -706,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/upload-portfolio-s3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
         </state>
       </provider>
     </entry>
